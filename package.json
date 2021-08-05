@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-onetable-backward-pagination-example",
+  "version": "1.0.0",
+  "description": "An example to illustrate the feature request described at https://github.com/sensedeep/dynamodb-onetable/issues/73",
+  "author": "Carlos Juega",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest --verbose"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.961.0",
+    "dynamodb-onetable": "^1.6.4"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
